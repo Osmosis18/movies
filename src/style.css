@@ -1,0 +1,57 @@
+/* div{
+    padding: 5rem;
+}
+h1{
+    color: blue;
+    background-color: white;
+    padding: 5rem;
+    
+} */
+.banner{
+    min-height: 80vh;
+     background-image: url(../public/clay-6760967_1280.jpg);
+     width: 100vw;
+     background-position: center;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     padding: 0.5rem;
+}
+.banner h4{
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 0 0 3px #333;
+}
+
+.banner button{
+    border: none;
+    padding: 0.6rem;
+    margin: 5px;
+    border-radius: 6px;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.5;
+}
+.banner p{
+    font-size: 1.2rem;
+    word-wrap: break-word;
+    width: 23vw;
+    color: #fff;
+}
+.moviesposter img {
+    height: 15rem;
+    width: 15rem;
+    object-fit: contain;
+    transition: all 5s ease-in-out;
+}
+.moviesposter img:hover{
+    transform: scale(1.20);
+    transition: all 5s ease-in-out;
+}
+.moviesposter{
+    overflow: auto;
+    gap: 4px;
+}
+::-webkit-scrollbar{
+    overflow: hidden;
+}
